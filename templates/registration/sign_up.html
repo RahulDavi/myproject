@@ -1,0 +1,6 @@
+<form method="POST">
+    {% csrf_token%}
+    {{form.as_p}}
+    emailid<input type="email" placeholder=""enter your email here><br>
+    <input type="submit" value="signup">
+</form>
